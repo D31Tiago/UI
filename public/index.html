@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modul-Hub</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Modul-Hub</h1>
+    <p>Verwalte alle Onboarding-Module an einer Stelle.</p>
+
+    <section class="card progress-wrap">
+      <h2>Gesamtfortschritt</h2>
+      <div class="progress-track"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+      <p id="progressText"></p>
+    </section>
+
+    <section class="module-grid" id="moduleGrid"></section>
+
+    <section class="card" style="margin-top:16px;">
+      <h2>Nächster Schritt</h2>
+      <a class="btn primary" href="/review-submission">Review & Submission</a>
+    </section>
+  </main>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>
