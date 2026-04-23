@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Bereich</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Admin (intern)</h1>
+    <p>Mandantenverwaltung mit Suche, Filter und Detailansicht.</p>
+
+    <section class="card">
+      <div class="toolbar">
+        <input placeholder="Suche (Nummer / E-Mail)" />
+        <select>
+          <option>Mandant: Alle</option>
+          <option>Nord GmbH</option>
+          <option>West AG</option>
+        </select>
+        <input type="date" />
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Mandant</th>
+            <th>Nummer</th>
+            <th>E-Mail</th>
+            <th>Datum</th>
+            <th>Detail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nord GmbH</td>
+            <td>100024</td>
+            <td>admin@nord.example</td>
+            <td>2026-04-23</td>
+            <td><button>Öffnen</button></td>
+          </tr>
+          <tr>
+            <td>West AG</td>
+            <td>100108</td>
+            <td>ops@west.example</td>
+            <td>2026-04-22</td>
+            <td><button>Öffnen</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

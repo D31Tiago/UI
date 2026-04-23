@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ops Bereich</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Ops (intern)</h1>
+    <p>Systembetrieb, Wartung und Auslieferung.</p>
+
+    <section class="panel-grid">
+      <article class="card"><h2>Systemstatus</h2><p>Alle Kernservices verfügbar.</p></article>
+      <article class="card"><h2>Logs</h2><div class="codeblock">INFO api-gateway healthy
+WARN backup delayed by 2m</div></article>
+      <article class="card"><h2>Backups</h2><p>Letztes Backup: 2026-04-23 05:30 UTC</p><button>Backup starten</button></article>
+      <article class="card"><h2>Restore</h2><p>Wiederherstellungspunkt wählen und durchführen.</p><button>Restore vorbereiten</button></article>
+      <article class="card"><h2>Deployment / Rollback</h2><div class="cta-row"><button class="primary">Deploy</button><button>Rollback</button></div></article>
+      <article class="card"><h2>Monitoring</h2><p>CPU 41%, RAM 63%, Queue-Lag 0.3s</p></article>
+    </section>
+  </main>
+</body>
+</html>
